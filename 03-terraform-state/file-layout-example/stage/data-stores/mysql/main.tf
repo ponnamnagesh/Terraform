@@ -8,7 +8,7 @@ terraform {
     # This backend configuration is filled in automatically at test time by Terratest. If you wish to run this example
     # manually, uncomment and fill in the config below.
 
-    bucket         = "Terraformupandrunningnageshfisrstdatabse"
+    bucket         = "terraform-up-and-running-nagesh"
     key            = "RDS/terraform.tfstate"
     region         = "us-east-2"
     dynamodb_table = "Dynamodbtableterraform-up-and-running-nagesh"
