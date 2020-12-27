@@ -7,10 +7,12 @@ variable "user_names" {
 variable "give_neo_cloudwatch_full_access" {
   description = "If true, neo gets full access to CloudWatch"
   type        = bool
+    # Set this parameter to true or false!
+  default   = true
 }
 
 variable "policy_name_prefix" {
   description = "The prefix to use for the IAM policy names"
   type        = string
-  default     = ""
+  default     = "Chubb"
 }
