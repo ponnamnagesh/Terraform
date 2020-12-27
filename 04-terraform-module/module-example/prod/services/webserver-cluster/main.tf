@@ -10,8 +10,7 @@ provider "aws" {
 }
 
 module "webserver_cluster" {
-  source = "/Users/nageshponnam/Terraform-up-and-running-code/Terraform/03-terraform-state/file-layout-example/stage/services/webserver-cluster
-"
+source = "/Users/nageshponnam/Terraform-up-and-running-code/Terraform/03-terraform-state/file-layout-example/stage/services/webserver-cluster"
 
   cluster_name           = var.cluster_name
   db_remote_state_bucket = var.db_remote_state_bucket
